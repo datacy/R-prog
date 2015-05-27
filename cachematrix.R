@@ -51,10 +51,7 @@ cacheSolve <- function(x, ...) {
     return(inv)
   }
   
-  ################################################
   ## If the inverse wasn't yet been calculated ##
-  ################################################
-  
   ## getting the matrix from our object
   data <- x$get()
   
